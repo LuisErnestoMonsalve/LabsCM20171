@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LabsCM20171</string>
+    <string name="ciudad">City</string>
+    <string name="correo">Mail</string>
+    <string name="direccion">Address</string>
+    <string name="pais">Country</string>
+    <string name="siguiente">Next</string>
+    <string name="telefono">Phone</string>
+</resources>

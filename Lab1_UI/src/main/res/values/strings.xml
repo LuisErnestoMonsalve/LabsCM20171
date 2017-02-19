@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Información Personal</string>
+    <string name="direccion">Dirección</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pais">País</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Telefono</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="informacion_de_contacto">Información de Contacto</string>
+    <string name="informacion_complementaria">Información Complementaria</string>
+    <string name="pasatiempos">Pasatiempos:</string>
+    <string name="leer">Leer</string>
+    <string name="ver_tv">Ver TV</string>
+    <string name="bailar">Bailar</string>
+    <string name="cantar">Cantar</string>
+    <string name="nadar">Nadar</string>
+    <string name="sexo">Sexo</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="cambiar">Cambiar</string>
+    <string-array name="escolaridad">
+        <item>Primaria</item>
+        <item>Secundaria</item>
+        <item>Universitaria</item>
+    </string-array>
+    <string-array name="paises">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Haití</item>
+        <item>Honduras</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>República Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="ciudades">
+
+        <item>Barranquilla</item>
+        <item>Bello</item>
+        <item>Bogotá</item>
+        <item>Bucaramanga</item>
+        <item>Buenaventura</item>
+        <item>Cali</item>
+        <item>Cartagena de Indias</item>
+        <item>Cúcuta</item>
+        <item>Ibagué</item>
+        <item>Manizales</item>
+        <item>Medellín</item>
+        <item>Montería</item>
+        <item>Neiva</item>
+        <item>Pasto</item>
+        <item>Pereira</item>
+        <item>Santa Marta</item>
+        <item>Soacha</item>
+        <item>Soledad</item>
+        <item>Villavicencio</item>
+        <item>Valledupar</item>
+
+    </string-array>
+</resources>

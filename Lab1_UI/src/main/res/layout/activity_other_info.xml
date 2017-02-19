@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_other_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="co.edu.udea.compumovil.gr01_20171.lab1.OtherInfo">
+
+    <TextView
+        android:id="@+id/informacionComplementaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informacion_complementaria"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/pasatiempos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/informacionComplementaria"
+        android:text="@string/pasatiempos"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/leerCheckBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pasatiempos"
+        android:text="@string/leer"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/verTvCheckBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leerCheckBox"
+        android:text="@string/ver_tv"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/bailarCheckBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verTvCheckBox"
+        android:text="@string/bailar"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/cantarCheckBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bailarCheckBox"
+        android:text="@string/cantar"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/nadarCheckBox"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cantarCheckBox"
+        android:text="@string/nadar"
+        android:textSize="20dp" />
+
+    <RatingBar
+        android:id="@+id/leerRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/leerCheckBox"
+        android:layout_toRightOf="@id/leerCheckBox" />
+
+    <RatingBar
+        android:id="@+id/verTvRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/leerRatingBar"
+        android:layout_alignTop="@id/verTvCheckBox"
+        android:layout_toRightOf="@id/verTvCheckBox" />
+
+    <RatingBar
+        android:id="@+id/bailarRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/verTvRatingBar"
+        android:layout_alignTop="@id/bailarCheckBox"
+        android:layout_toRightOf="@id/bailarCheckBox" />
+
+    <RatingBar
+        android:id="@+id/cantarRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bailarRatingBar"
+        android:layout_alignTop="@id/cantarCheckBox"
+        android:layout_toRightOf="@id/cantarCheckBox" />
+
+    <RatingBar
+        android:id="@+id/nadarRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cantarRatingBar"
+        android:layout_alignTop="@id/nadarCheckBox"
+        android:layout_toRightOf="@id/nadarCheckBox" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nadarRatingBar"/>
+
+
+</RelativeLayout>
